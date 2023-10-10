@@ -13,3 +13,4 @@ stock: 32
 thumbnail: "https://i.dummyjson.com/data/products/5/thumbnail.jpg"
 title: "Huawei P30" 
 */
+

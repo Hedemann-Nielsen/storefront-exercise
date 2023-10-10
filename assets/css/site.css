@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     width: 100%;
     color: white;
@@ -17,6 +21,55 @@ footer{
     height: 4rem;
     padding: 0.7rem; 
 }
+
+/* Categories */
+/* #categoriesNav {
+	width: 100%;
+	list-style: none;
+	
+}
+
+#categoriesNav,
+#categoriesNav ul li {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+#categoriesNav ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+  
+}
+#categoriesNav ul li {
+    background-color: aqua;
+    padding: 10px;
+    margin: 5px;
+	flex-basis: 5%;
+	flex-shrink: 1;
+	flex-grow:1;
+flex-wrap: wrap;
+}
+*/
+#categoriesNav ul li a {
+    text-decoration: none;
+	justify-content: center;
+	padding: 0.5em;
+    /* background-color: aqua; */
+} 
+
+#categoriesNav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #categoriesNav li {
+    flex-basis: 10%; /* Adjust this value as needed */
+    padding: 0.5em;
+  }
 
 /*products*/
 
